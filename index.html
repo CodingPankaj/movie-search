@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="shortcut icon" href="images/fav-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-mid">
+            <figure>
+                <img src="images/logo.svg">
+            </figure>
+            <nav>
+                <ul>
+                    <li class="active">Home</li>
+                    <li>Action</li>
+                    <li>Adventure</li>
+                    <li>Horror</li>
+                    <li>Thriller</li>
+                    <li>Sci-fi</li>
+                </ul>
+                <form id="search-form">
+                    <button id="search-close"><i class="fa-solid fa-xmark"></i></button>
+                    <input type="text" placeholder="Search..." />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button id="hamburger-button"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="movie">
+        <div class="movie-mid">
+            <div class="error-container"></div>
+            <div class="movie-container">
+                <!-- <div class="movie-card">
+                    <figure class="movie-poster">
+                        <img src="images/movie-poster-coming-soon-2.png" />
+                        <div class="movie-rating">9.5</div>
+                        <div class="poster-overlay"></div>
+                        <div class="description-container">
+                            <div class="read-more">
+                                <p></p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </figure>
+                    <div class="movie-content">
+                        <h3 class="movie-title">Benched</h3>
+                        <p class="movie-genre">Action Triler</p>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-mid">
+            <figure>
+                <img src="images/logo.svg">
+            </figure>
+            <p>© MOVIESEARCH, 2024</br>Created by <span><a href="https://facebook.com/pankajHandsome" target="_blank">Pankaj Sharma</a></span></p>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-mid">
+            <!-- <div class="modal-movie-title">
+                <h3>The Bad Guys: Haunted Heist</h3>
+            </div>
+            <div class="movie-data-container">
+                <figure>
+                    <img src="images/movie-poster-coming-soon-2.png"/>
+                    <div class="movie-rating">9.5</div>
+                </figure>
+                <div class="movie-data">
+                    <div class="modal-movie-title mobile">
+                        <h3>The Bad Guys: Haunted Heist</h3>
+                    </div>
+                    <h4>Original Title: <span>The Bad Guys: Haunted Heist</span></h4>
+                    <h4>Genre: <span>Action</span></h4>
+                    <h4>Release Date: <span>2025-20-20</span></h4>
+                    <h4>Original Language: <span>En</span></h4>
+                    <h4>Popularity: <span>447</span></h4>
+                    <h4>Vote Average: <span>7.5</span></h4>
+                    <h4>Vote Count: <span>45</span></h4>
+                    <div class="movie-overview">
+                        <p>When a renowned archaeologist goes missing, his daughter sets out on a perilous journey to the heart of the Amazon rainforest to find him. Along the way, she discovers a hidden city and a dangerous conspiracy that threatens the very balance of power in the world. With the help of a charming rogue, she must navigate treacherous terrain and outwit powerful enemies to save her father and uncover the secrets of the lost city. A down-on-his-luck boxer struggles to make ends meet while raising his young son. When an old friend offers him a chance to make some quick cash by fighting in an illegal underground boxing tournament, he sees it as his last shot at redemption. But as the stakes get higher and the fights get more brutal, he must confront his own demons and find the strength to win not just for himself, but for his son.</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <button class="close-modal-button"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
